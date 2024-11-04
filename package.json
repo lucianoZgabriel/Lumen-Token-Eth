@@ -6,13 +6,19 @@
   "scripts": {
     "test": "npx hardhat test",
     "start": "npx hardhat node",
-    "compile": "npx hardhat compile"
+    "compile": "npx hardhat compile",
+    "deploy:local": "npx hardhat ignition deploy ignition/modules/Lumen.ts --network localhost",
+    "deploy:testnet": "npx hardhat ignition deploy ignition/modules/Lumen.ts --network sepolia"
   },
   "keywords": [],
   "author": "Luciano Zanin Gabriel",
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
     "hardhat": "^2.22.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
