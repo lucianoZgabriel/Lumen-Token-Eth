@@ -2,6 +2,21 @@
 
 Lumen is an ERC-20 token developed for the Ethereum network. This project was built using Hardhat, with scripts for deploying on a local node and on the Sepolia testnet. It also includes a package for contract verification on Etherscan.
 
+## Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Environment Setup](#-environment-setup)
+- [Installation](#installation)
+- [Deployment](#-deployment)
+  - [Local Deployment](#local-deployment)
+  - [Sepolia Testnet Deployment](#sepolia-testnet-deployment)
+- [Contract Verification on Etherscan](#etherscam-verification)
+- [Testing](#-testing)
+- [License](#-license)
+- [Author](#-author)
+
 ## 📜 About the Project
 
 The Lumen (LMN) is a basic ERC-20 token implemented in Solidity. The contract defines standard transfer and approval functionalities, following the ERC-20 standard.
@@ -91,7 +106,7 @@ npm test
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 👤 Author
 
