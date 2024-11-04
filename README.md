@@ -5,14 +5,14 @@ Lumen is an ERC-20 token developed for the Ethereum network. This project was bu
 ## Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Technologies Used](#-technologies-used)
+- [Technologies Used](#technologies-used)
 - [Project Structure](#-project-structure)
-- [Environment Setup](#-environment-setup)
+- [Environment Setup](#environment-setup)
 - [Installation](#installation)
 - [Deployment](#-deployment)
   - [Local Deployment](#local-deployment)
   - [Sepolia Testnet Deployment](#sepolia-testnet-deployment)
-- [Contract Verification on Etherscan](#etherscam-verification)
+- [Contract Verification on Etherscan](#etherscan-verification)
 - [Testing](#-testing)
 - [License](#-license)
 - [Author](#-author)
@@ -26,7 +26,8 @@ The Lumen (LMN) is a basic ERC-20 token implemented in Solidity. The contract de
 - Symbol: LMN
 - Decimals: 18
 - Total Supply: 1000 LMN
-
+- 
+<a name="technologies-used"></a>
 ## 🛠️ Technologies Used
 
 - [Hardhat](https://hardhat.org/): Framework for smart contract development.
@@ -39,7 +40,8 @@ The Lumen (LMN) is a basic ERC-20 token implemented in Solidity. The contract de
 - **`Lumen.sol`**: ERC-20 token implementation in Solidity.
 - **`hardhat.config.ts`**: Hardhat configuration file, including networks, Solidity version, and Etherscan API.
 - **`package.json`**: Scripts for testing, compiling, and deploying the contract.
-
+- 
+<a name="environment-setup"></a>
 ## ⚙️ Environment Setup
 
 This project uses environment variables to configure deployment on external networks. Create a `.env` file with the following variables:
